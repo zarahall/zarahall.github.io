@@ -5,10 +5,10 @@
     <title>Zara Hall</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#4a4e69">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta name="description" content="Resume of Zara Hall">
     <style>
         body {
@@ -18,43 +18,65 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            line-height: 1.6;
         }
         .container {
-            width: 80%;
+            max-width: 800px;
             margin: auto;
             overflow: hidden;
-            padding: 20px;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1, h2, h3 {
-            color: #333;
+            color: #4a4e69;
         }
         p, li {
             color: #333;
+            font-size: 16px;
         }
         a {
-            color: #1a0dab; /* This sets the color of all links */
+            color: #9a8c98;
             text-decoration: none;
         }
         a:hover {
+            color: #c9ada7;
             text-decoration: underline;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .publication {
+            margin-bottom: 15px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-detail {
+            font-style: italic;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Zara Hall</h1>
-        <h5><p> Hello! I study computer science and history at <a target="_blank" href="http://columbia.edu" class="hoverLink"><b>Columbia</b></a> </h5></p>
-        <h5><p> In the past, I have worked on investment algorithms at <a target="_blank" href="http://bridgewater.com" class="hoverLink"><b>Bridgewater</b></a> </h5></p>
+        <header>
+            <h1>Zara Hall</h1>
+            <p>Hello! I study computer science and history at <a href="http://columbia.edu" target="_blank">Columbia</a></p>
+            <p>In the past, I have worked on investment algorithms at <a href="http://bridgewater.com" target="_blank">Bridgewater</a></p>
+        </header>
 
         <h3>Publications</h3>
-        <h5>Pulsed Nano-ESI: Application in Ion Mobility-MS and Insights into Spray Dynamics</h5>
-    <p>
-        William P. McMahon, Rohan Dalvi, Joseph E. Lesniewski, Zara Y. Hall, and Kaveh Jorabchi<br>
-        <em>Journal of the American Society for Mass Spectrometry 2020 31 (3), 488-497</em><br>
-        DOI: <a href="https://doi.org/10.1021/jasms.9b00121" target="_blank">10.1021/jasms.9b00121</a>
-    </p>
+        <div class="publication">
+            <p class="publication-title">Pulsed Nano-ESI: Application in Ion Mobility-MS and Insights into Spray Dynamics</p>
+            <p class="publication-detail">
+                William P. McMahon, Rohan Dalvi, Joseph E. Lesniewski, Zara Y. Hall, and Kaveh Jorabchi<br>
+                <em>Journal of the American Society for Mass Spectrometry 2020 31 (3), 488-497</em><br>
+                DOI: <a href="https://doi.org/10.1021/jasms.9b00121" target="_blank">10.1021/jasms.9b00121</a>
+            </p>
+        </div>
 
-        
     </div>
 </body>
 </html>
